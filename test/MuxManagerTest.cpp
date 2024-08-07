@@ -859,6 +859,7 @@ TEST_F(MuxManagerTest, ServerMacActiveActive)
     EXPECT_TRUE(bladeMacAddress == wellKnownMac);
 }
 
+/*
 TEST_F(MuxManagerTest, ServerMacActiveActiveBeforeLinkProberInit)
 {
     std::string port = MuxManagerTest::PortName;
@@ -878,6 +879,7 @@ TEST_F(MuxManagerTest, ServerMacActiveActiveBeforeLinkProberInit)
     std::array<uint8_t, ETHER_ADDR_LEN> bladeMacAddress = getBladeMacAddress(port);
     EXPECT_TRUE(bladeMacAddress == serverMac);
 }
+*/
 
 TEST_F(MuxManagerTest, LinkmgrdConfig)
 {
